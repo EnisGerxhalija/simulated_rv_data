@@ -11,7 +11,7 @@ Simulates the Sun's reflex RV due to the Solar System planets, then adds real so
 | Notebook | What it does |
 | --- | --- |
 | [`intro_to_rvs.ipynb`](Projects/simulating_rvs/intro_to_rvs.ipynb) | Computes Keplerian RV signals for each planet from the NASA Planetary Fact Sheet (semi-amplitudes, solving Kepler's equation for the anomalies), sums them, and compares the result with and without Jupiter and Saturn. Covers Doppler shifts. Saves the model to `solar_system_rvs.npz`. |
-| [`rv_with_stellar_activity.ipynb`](Projects/simulating_rvs/rv_with_stellar_activity.ipynb) | Loads the HARPS-N solar RVs (2015–2025). Bins them per day, applies 30-day smoothing, and corrects for the magnetic cycle using the Bremen Mg II index. Then computes Lomb-Scargle periodograms and injects the activity into the planetary signal to see what survives. Ends with the photon-noise RV limit for HARPS3. |
+| [`rv_with_stellar_activity.ipynb`](Projects/simulating_rvs/rv_with_stellar_activity.ipynb) | Loads the HARPS-N solar RVs (2015–2025). Bins them per day, applies 30-day smoothing, and corrects for the magnetic cycle using the Bremen Mg II index. Then computes Lomb-Scargle periodograms and injects the activity into the planetary signal to see what survives.
 
 Run `intro_to_rvs` first, since the second notebook loads its output.
 
